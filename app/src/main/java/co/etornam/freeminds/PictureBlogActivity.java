@@ -133,8 +133,7 @@ String uid;
     //post new Image
     private void postImage() {
         final Date date = new Date();
-        final SimpleDateFormat dateFt = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
-        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss",Locale.getDefault());
+        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
         final String imageDesc = imgDesc.getText().toString();
         if (!imageDesc.isEmpty() && resultUri != null){
             mProgressDialog.setMessage("Uploading...");
@@ -193,8 +192,9 @@ String uid;
                                     mPostUpload.put("imageUrl",downloadUrl.toString());
                                     mPostUpload.put("thumbnail",downloadThumbUri.toString());
                                     mPostUpload.put("imgDesc",imageDesc);
+                                    mPostUpload.put("postText", "");
                                     mPostUpload.put("current_userId",uid);
-                                    mPostUpload.put("timeStamp", dateFt.format(date));
+                                    mPostUpload.put("timeStamp", simpleDateFormat.format(date));
                                     mPostUpload.put("datePosted",FieldValue.serverTimestamp());
 
 

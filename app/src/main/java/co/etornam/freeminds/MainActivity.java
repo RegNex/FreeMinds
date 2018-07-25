@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 holder.setIsRecyclable(false);
                 Date date = new Date();
                 SimpleDateFormat nwDateFt = new SimpleDateFormat("HH:mm:ss",Locale.getDefault());
-                holder.postDesc.setText(model.getPostText());
+
                 holder.txtImgDesc.setText(model.getImgDesc());
                 final String userId = model.getCurrent_userId();
                 if (model.getThumbnail().isEmpty()){
@@ -188,6 +188,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }else{
                     holder.imageLayout.setVisibility(View.VISIBLE);
                     Picasso.get().load(model.getThumbnail()).noFade().into(holder.mImage);
+                }
+                if (!model.getPostText().isEmpty()) {
+                    holder.postDesc.setVisibility(View.VISIBLE);
+                    holder.postDesc.setText(model.getPostText());
+                } else {
+                    holder.postDesc.setVisibility(View.GONE);
                 }
                 DateTimeFormatter formatter = DateTimeFormat.forPattern("HH:mm:ss");
                 DateTime time1 = formatter.parseDateTime(nwDateFt.format(date));

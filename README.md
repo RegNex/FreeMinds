@@ -2,6 +2,12 @@
 
 FreeMinds is an android which i used to experiment how to use Firebase's firestore database.
 
+## Art
+<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_1.png" />
+<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_2.png" />
+<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_3.png" />
+<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_4.png" />
+
 ## Getting Started
 
 To clone this project,
@@ -47,7 +53,7 @@ You can submit a pull request
 You can find the apk of this project in
 
 ```
-FreeMinds\app\release\app-release.apk
+FreeMinds\app\build\outputs\apk\debug\app-debug.apk
 ```
 
 ## To set up an emulator
