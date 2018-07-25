@@ -1,6 +1,6 @@
 # FreeMinds
 
-FreeMinds is an android which i used to experiment how to use Firebase's firestore database.
+FreeMinds is an android which i used to experiment how to use Firebase's firestore database. FreeMinds has an authentication system and a feature to upload images or upload text which anybody with the app will see and also be also to LIKE or COMMENT on the post.
 
 ## Art
 <img align="left" src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_1.png" width="200" height="400"/>
