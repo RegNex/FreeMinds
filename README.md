@@ -3,7 +3,7 @@
 FreeMinds is an android which i used to experiment how to use Firebase's firestore database.
 
 ## Art
-<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_1.png" />
+<img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_1.png" alt="drawing" width="500px"/>
 <img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_2.png" />
 <img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_3.png" />
 <img src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_4.png" />
