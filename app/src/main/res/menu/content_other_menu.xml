@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_share"
+        android:title="Share via"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_report"
+        android:title="Report this Post"
+        android:icon="@drawable/ic_report_black_24dp"
+        app:showAsAction="never"/>
+   </menu>

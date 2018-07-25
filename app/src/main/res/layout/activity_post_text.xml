@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostTextActivity">
+
+    <EditText
+        android:id="@+id/edtPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_outline"
+        android:padding="10dp"
+        android:lines="5"
+        android:ems="10"
+        android:maxLength="140"
+        android:hint="what's on your mind? (140 characters)"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="end"
+        android:text="140/0" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_outline"
+        android:padding="8dp"
+        android:text="Submit Post"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
