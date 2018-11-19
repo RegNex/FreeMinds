@@ -9,6 +9,9 @@ FreeMinds is an android which i used to experiment how to use Firebase's firesto
 <img align="right" src="https://github.com/RegNex/FreeMinds/blob/master/screenshots/screen_4.png" width="200" height="400"/>
 
 
+
+
+
 ## Getting Started
 
 To clone this project,
